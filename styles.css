@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+   padding: 0;  
+}
+  
+body{ 
+  
+margin: 60px ; 
+  padding: 0;
+
+ }
+
+div.cabe{
+
+    flex-wrap: wrap; 
+  gap: 20px
+}
+
+div.cabe h1 {
+
+  color: aliceblue;
+
+}
+
+h2  {color: rgb(2, 1, 2);
+padding-left: 20px;
+background-color: rgba(96, 49, 166, 0.391);
+
+ }
+ form.perfil{
+  background-color: rgba(255, 228, 196, 0.696);
+padding-left: 20px
+}
+form.intro{
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 245, 220);
+    
+}
+a{
+text-decoration: none;
+color: black;}
+table{
+  
+  word-break: break-word;
+    border-collapse: collapse;
+    background-color: cadetblue;
+    text-align: center;
+  margin: 20px auto;
+  width: 100%; 
+border: 2px solid black;
+
+
+    }
+    div.table-section
+    {
+      overflow-x: auto; 
+  }
+    label{
+        color: black;
+    }
+
+    a:hover{color: aqua;}
+th, td{
+    text-align: center;
+   font-size: 15px;
+
+   padding: 10px 20px;
+   border: 1px solid black;  
+}
+tr.en {
+    background-color: rgb(215, 250, 221);
+
+}
+div.cabe   {
+  background-color: rgb(35, 0, 139);
+  display: flex;              
+   justify-content: space-between;
+  align-items: center;          
+  padding: 20px 50px;
+}
+
+.fo {
+border-radius: 50%;
+
+}
+
+tr:hover {background-color: darkmagenta;}
+
